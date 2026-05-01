@@ -12,8 +12,8 @@ function getAscii(brightness) {
 function drawAscii() {
     const canvas = document.createElement('canvas');
     const ctx = canvas.getContext('2d');
-    const width = 80;
-    const height = 60;
+    const width = 150;
+    const height = 100;
     
     canvas.width = width;
     canvas.height = height;
